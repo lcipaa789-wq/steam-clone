@@ -1,16 +1,108 @@
-# React + Vite
+🎮 Playhop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern gaming platform built with React, Redux Toolkit, React Router, and Tailwind CSS.
 
-Currently, two official plugins are available:
+⸻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+Games
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fetch games from RAWG API
+- Game cards with hover effects
+- Game details page
+- Genres sidebar
+- Search games
+- Responsive game grid
 
-## Expanding the ESLint configuration
+Cart System
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add games to cart
+- Remove games from cart
+- Dynamic cart badge
+- Redux Toolkit cart state management
+
+Technologies
+
+- React
+- Redux Toolkit
+- React Router DOM
+- Tailwind CSS
+- Axios
+- RAWG API
+- React Bootstrap Icons
+
+⸻
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/lcipaa789-wq/steam-clone.git
+
+Go to project folder:
+
+cd playhop
+
+Install dependencies:
+
+npm install
+
+Run project:
+
+npm run dev
+
+⸻
+
+Environment Variables
+
+Create .env file:
+
+VITE_RAWG_API_KEY=your_api_key
+
+Get API key from:
+
+https://rawg.io/apidocs
+
+Redux State
+
+Game Slice
+
+Handles:
+
+- games
+- loading
+- search
+- active genre
+
+Cart Slice
+
+Handles:
+
+- cart items
+- add to cart
+- remove from cart
+
+⸻
+
+📸 Screenshots
+
+Home Page
+
+- Game cards
+- Search bar
+- Sidebar genres
+
+Game Details
+
+- Screenshots gallery
+- Rating
+- Release date
+- Add to cart button
+
+Cart Page
+
+- Dynamic cart items
+- Remove buttons
+
+⸻
